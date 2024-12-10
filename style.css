@@ -1,0 +1,78 @@
+
+/* configuração global*/
+body {
+    text-align: center; /* centraliza o conteúdo */
+}
+
+/* topo da pagina */
+header.cabecalho {
+    width: 100%; 
+    background: rgb(255, 255, 255); 
+    box-shadow: 3px 3px 3px rgba(78, 77, 77, 0.336); /*sombra da div*/
+    padding: 17px; /*espaçamento interno*/ 
+    border-radius: 6px;  /*bordar arredondadas*/
+}
+
+/* formatação do titulo principal */
+h1.titulo_pagina {
+    font-size: 3rem; 
+    color: rgb(35, 35, 36); 
+}
+
+/* formatação do menu de navegação */
+#menu_pagina ul {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; /*espaçamento*/
+}
+
+/* menu de navegacao "topo da pagina"*/
+#menu_pagina ul li {
+    margin: 0 15px;
+    list-style-type: none; /* Remove a marcadores de lista do menu*/
+}
+
+/* formatação dos links do menu de navegação*/
+#menu_pagina ul li a {
+    color: #3a3a3a; 
+    font-size: 18px; 
+    text-decoration: none; 
+    position: relative; 
+    padding: 10px; 
+}
+
+/* formatação dos links do menu de navegação em hover - efeito quando o mouse esta sob o conteudo */
+#menu_pagina ul li a:hover {
+    color: #0c0c0c; 
+    background: rgba(83, 82, 82, 0.425); 
+    padding: 10px; 
+    border-radius: 6px; 
+}
+
+/* formatação das areas de conteúdo */
+.minhas_formacoes, .area_portifolio {
+    background: #2d2d2d; 
+    padding: 30px; 
+    margin-top: 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* formatacao dos títulos em cabecalho e minhas informações */
+h2.titulo_secao, h3 {
+    color: rgb(255, 255, 255); 
+    font-size: 32px; 
+}
+
+/* area de descrição do conteudo em meus dados*/
+.resumo_conteudo, .meu_contato, .meus_dados, .meus_hobbies {
+    font-size: 18px;
+    color: white; 
+    margin: 0; 
+    text-align: justify;
+}
+
+/* textos em negrito em meus dados */
+.meus_dados strong, .meus_hobbies strong {
+    color: rgb(30, 107, 223);
+}
